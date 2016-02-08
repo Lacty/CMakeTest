@@ -1,8 +1,8 @@
 
 #include <iostream>
 #include <GLFW/glfw3.h>
-
 #include "font.h"
+#include "anttweakbar.hpp"
 
 
 GLFWwindow* createWindow() {
@@ -22,9 +22,21 @@ int main() {
 
 	Font font("../../assets/consolas.ttf");
 
+	TwInit(TW_OPENGL, NULL);
+	TwWindowSize(800, 600);
+
+	TwBar* twbar;
+	twbar = TwNewBar("Hello");
+
+	float angle = 0;
+
+	TwAddVarRW(twbar, "angle", TW_TYPE_FLOAT, &angle, "");
+
 	while (!glfwWindowShouldClose(window)) {
 		glClearColor(0.3f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
+
+		TwDraw();
 
 		font.draw("Hello", 400, 300, 100,
 			      Font::Hol::Center,
