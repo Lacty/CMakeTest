@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/USER/Desktop/CMakeTest/folders/src/mod1/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\USER\Desktop\CMakeTest\folders\vs2015\src\mod1\CMakeFiles\generate.stamp is up-to-date.
+  mod1.cpp
+  Mod1.vcxproj -> C:\Users\USER\Desktop\CMakeTest\folders\vs2015\src\mod1\Debug\Mod1.lib

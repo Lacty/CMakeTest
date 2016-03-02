@@ -1,0 +1,4 @@
+C:/Users/USER/Desktop/CMakeTest/folders/vs2015/CMakeFiles/ALL_BUILD.dir
+C:/Users/USER/Desktop/CMakeTest/folders/vs2015/CMakeFiles/ZERO_CHECK.dir
+C:/Users/USER/Desktop/CMakeTest/folders/vs2015/src/CMakeFiles/Folders.dir
+C:/Users/USER/Desktop/CMakeTest/folders/vs2015/src/mod1/CMakeFiles/Mod1.dir

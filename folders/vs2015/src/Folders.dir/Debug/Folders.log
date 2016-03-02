@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/USER/Desktop/CMakeTest/folders/src/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\USER\Desktop\CMakeTest\folders\vs2015\src\CMakeFiles\generate.stamp is up-to-date.
+  main.cpp
+  Folders.vcxproj -> C:\Users\USER\Desktop\CMakeTest\folders\vs2015\src\Debug\Folders.exe
+  Folders.vcxproj -> C:/Users/USER/Desktop/CMakeTest/folders/vs2015/src/Debug/Folders.pdb (Full PDB)
